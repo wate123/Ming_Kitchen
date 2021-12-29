@@ -14,3 +14,33 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.ant-menu.ant-menu-light .ant-menu-item-selected {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  color: black;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border-right: none;
+}
+.ant-menu {
+  max-height: 100vh;
+  overflow: auto;
+}
+.ant-menu-horizontal {
+  border-bottom: none;
+  overflow: scroll;
+  height: 50px;
+  flex-wrap: nowrap;
+  display: flex;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.ant-menu-horizontal::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}

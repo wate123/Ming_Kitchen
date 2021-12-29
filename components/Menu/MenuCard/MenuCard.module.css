@@ -1,0 +1,14 @@
+.card {
+  padding: 10px;
+  min-height: 150px;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px #ccc;
+}
+
+.image {
+  min-height: 150px;
+  width: 100%;
+}

@@ -1,0 +1,1407 @@
+{
+  "Special Dinner Combination Plates":[
+    {
+        "id": "C1",
+        "name": "Roast Pork or Chicken Egg Foo Young",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C2",
+        "name": "Pork or Chicken Lo Mein",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C3",
+        "name": "Beef or Shrimp Lo Mein",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C4",
+        "name": "Chicken or Shrimp Chow Mein",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C5",
+        "name": "Chicken or Beef w.Broccoli",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C6",
+        "name": "Shrimp w.Broccoli",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C7",
+        "name": "Sweet & Sour Pork or Chicken",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C8",
+        "name": "Moo Goo Gai Pan",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C9",
+        "name": "Pork w.Chinese Vegetable",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C10",
+        "name": "Beef or Shrimp w.Chinese Veg",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C11",
+        "name": "Pepper Stack w.Onion",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C12",
+        "name": "Shrimp w.Lobster Sauce",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C13",
+        "name": "Kung Po Shrimp",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C14",
+        "name": "Sauteed Mixed Vegetables",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C15",
+        "name": "Sesame or General Tso's Chicken",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C16",
+        "name": "Mandarin or Boneless Chicken",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C17",
+        "name": "Honey Chicken",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C19",
+        "name": "Cashewnuts Chicken",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C20",
+        "name": "Almond Chicken",
+        "price": 8.99,
+        "photo": ""
+    },
+    {
+        "id": "C21",
+        "name": "Bar-B-Q Spare Ribs or Boneless Ribs",
+        "price": 9.95,
+        "photo": ""
+    },
+    {
+        "id": "C22",
+        "name": "Triple Delight",
+        "price": 9.5,
+        "photo": ""
+    }
+],
+    "Specialties":[
+        {
+            "id": "1",
+            "name": "Fried Chicken Wings (6)",
+            "price": 7.25,
+            "photo": ""
+        },
+        {
+            "id": "2",
+            "name": "Fried Jumbo Shrimp (6)",
+            "price": 6.65,
+            "photo": ""
+        },
+        {
+            "id": "3",
+            "name": "French Fries",
+            "price": 3.99,
+            "photo": ""
+        }
+    ],
+    "Appetizers":[
+        {
+            "id": "1",
+            "name": "Roast Pork Egg Roll (1)",
+            "price": 1.65,
+            "photo": ""
+        },
+        {
+            "id": "2",
+            "name": "Spring Roll (2)",
+            "price": 2.80,
+            "photo": ""
+        },
+        {
+            "id": "3",
+            "name": "Shrimp Egg Roll (1)",
+            "price": 1.75,
+            "photo": ""
+        },
+        {
+            "id": "4",
+            "name": "Bar-B-Q Spare Ribs (Costilla)",
+            "price": 8.99,
+            "photo": ""
+        },
+        {
+            "id": "5",
+            "name": "Teriyaki Chicken",
+            "price": 6.95,
+            "photo": ""
+        },
+        {
+            "id": "6",
+            "name": "Sweet Donut",
+            "price": 4.5,
+            "photo": ""
+        },
+        {
+            "id": "7",
+            "name": "Fried Wonton",
+            "price": 4.4,
+            "photo": ""
+        },
+        {
+            "id": "8",
+            "name": "Boneless Ribs (Costilla Sin Huesos)",
+            "price": 7.99,
+            "photo": ""
+        },
+        {
+            "id": "9",
+            "name": "Fried or Steamed Dumplings",
+            "price": 6.5,
+            "photo": ""
+        },
+        {
+            "id": "10",
+            "name": "Crab Rangoon",
+            "price": 6,
+            "photo": "/items/crab_rangoon.webp"
+        },
+        {
+            "id": "11",
+            "name": "Cho Cho (Shrimp Pork Onions)",
+            "price": 6.25,
+            "photo": ""
+        }
+    ],
+    "Soup (Sopa) ":[
+        {
+            "id": "12",
+            "name": "Wonton Soup",
+            "price": 3.5,
+            "photo": ""
+        },
+        {
+            "id": "13",
+            "name": "Egg Drop Soup",
+            "price": 3,
+            "photo": ""
+        },
+        {
+            "id": "14",
+            "name": "Wonton Egg Drop Soup",
+            "price": 3.5,
+            "photo": ""
+        },
+        {
+            "id": "15",
+            "name": "Chicken Noodle Soup",
+            "price": 3.5,
+            "photo": ""
+        },
+        {
+            "id": "16",
+            "name": "Chicken Rice Soup",
+            "price": 3.5,
+            "photo": ""
+        },
+        {
+            "id": "17",
+            "name": "Shrimp Rice Soup",
+            "price": 3.95,
+            "photo": ""
+        },
+        {
+            "id": "18",
+            "name": "Hot & Sour Soup",
+            "price": 3.75,
+            "photo": ""
+        },
+        {
+            "id": "19",
+            "name": "Subgum Noodle Soup",
+            "price": 8,
+            "photo": ""
+        },
+        {
+            "id": "20",
+            "name": "Roast Pork Yat Gaw Mein",
+            "price": 7.5,
+            "photo": ""
+        },
+        {
+            "id": "21",
+            "name": "Seafood Soup",
+            "price": 8.95,
+            "photo": ""
+        }
+    ],
+    "Fried Rice (Arroz Frito)":[
+        {
+            "id": "22",
+            "name": "Vegetable Fried Rice (Vegetables)",
+            "price": 5.25,
+            "photo": ""
+        },
+        {
+            "id": "23",
+            "name": "Roast Pork Fried Rice (Cerdo)",
+            "price": 5.45,
+            "photo": ""
+        },
+        {
+            "id": "24",
+            "name": "Chicken Fried Rice (Pollo)",
+            "price": 5.55,
+            "photo": ""
+        },
+        {
+            "id": "25",
+            "name": "Shrimp Fried Rice (Camarones)",
+            "price": 6,
+            "photo": ""
+        },
+        {
+            "id": "26",
+            "name": "Beef Fried Rice (Carne De Res)",
+            "price": 6,
+            "photo": ""
+        },
+        {
+            "id": "27",
+            "name": "House Special Fried Rice",
+            "price": 6,
+            "photo": ""
+        },
+        {
+            "id": "29",
+            "name": "Young Chow Fried Rice",
+            "price": 6,
+            "photo": ""
+        }
+    ],
+    "Chow Mein or Chop Suey":[
+        {
+            "id": "30",
+            "name": "Vegetable Chow Mein",
+            "price": 8.95,
+            "photo": ""
+        },
+        {
+            "id": "31",
+            "name": "Roast Pork Chow Mein",
+            "price": 8.95,
+            "photo": ""
+        },
+        {
+            "id": "32",
+            "name": "Chicken Chow Mein",
+            "price": 8.95,
+            "photo": ""
+        },
+        {
+            "id": "33",
+            "name": "Shrimp Chow Mein",
+            "price": 10.5,
+            "photo": ""
+        },
+        {
+            "id": "34",
+            "name": "Beef Chow Mein",
+            "price": 10.5,
+            "photo": ""
+        },
+        {
+            "id": "36",
+            "name": "House Special Chow Mein",
+            "price": 10.75,
+            "photo": ""
+        }
+    ],
+    "Lo Mein (Spaghetti)":[
+        {
+            "id": "37",
+            "name": "Vegetable Lo Mein",
+            "price": 5.8,
+            "photo": ""
+        },
+        {
+            "id": "38",
+            "name": "Roast Pork Lo Mein",
+            "price": 6.1,
+            "photo": ""
+        },
+        {
+            "id": "39",
+            "name": "Chicken Lo Mein",
+            "price": 6.1,
+            "photo": ""
+        },
+        {
+            "id": "40",
+            "name": "Shrimp Lo Mein",
+            "price": 6.5,
+            "photo": ""
+        },
+        {
+            "id": "41",
+            "name": "Beef Lo Mein",
+            "price": 6.5,
+            "photo": ""
+        },
+        {
+            "id": "42",
+            "name": "Crawfish Lo Mein",
+            "price": 6.95,
+            "photo": ""
+        },
+        {
+            "id": "43",
+            "name": "House Special Lo Mein",
+            "price": 10.75,
+            "photo": "/items/house_special_lo_mein.webp"
+        }
+    ],
+    "Mei Fun (Rice Noodle)":[
+        {
+            "id": "44",
+            "name": "Vegetable Mei Fun",
+            "price": 8.75,
+            "photo": ""
+        },
+        {
+            "id": "45",
+            "name": "Roast Pork or Chicken Mei Fun",
+            "price": 9,
+            "photo": ""
+        },
+        {
+            "id": "46",
+            "name": "Shrimp or Beef Mei Fun",
+            "price": 9.5,
+            "photo": ""
+        },
+        {
+            "id": "47",
+            "name": "House Special Mei Fun",
+            "price": 10.15,
+            "photo": ""
+        },
+        {
+            "id": "48",
+            "name": "Singapore Mei Fun",
+            "price": 10.15,
+            "photo": ""
+        }
+    ],
+    "Egg Foo Young (Omelette)":[
+        {
+            "id": "49",
+            "name": "Vegetable Egg Foo Young",
+            "price": 8.45,
+            "photo": ""
+        },
+        {
+            "id": "50",
+            "name": "Roast Pork or Chicken Egg Foo Young",
+            "price": 8.55,
+            "photo": ""
+        },
+        {
+            "id": "51",
+            "name": "Shrimp or Beef Egg Foo Young",
+            "price": 8.95,
+            "photo": ""
+        },
+        {
+            "id": "53",
+            "name": "House Special Egg Foo Young",
+            "price": 10.15,
+            "photo": ""
+        }
+    ],
+    "Seafood (Comidas Marinas)":[
+        {
+            "id": "54",
+            "name": "Shrimp w.Lobster Sauce",
+            "price": 6.95,
+            "photo": ""
+        },
+        {
+            "id": "55",
+            "name": "Shrimp w.Broccoli",
+            "price": 6.95,
+            "photo": "/items/shrimp_w_broccoli.webp"
+        },
+        {
+            "id": "56",
+            "name": "Shrimp w.Chinese Vegetable",
+            "price": 11.95,
+            "photo": ""
+        },
+        {
+            "id": "57",
+            "name": "Shrimp w.Curry Sauce",
+            "price": 11.95,
+            "photo": ""
+        },
+        {
+            "id": "58",
+            "name": "Kung Pao Shrimp",
+            "price": 11.95,
+            "photo": ""
+        },
+        {
+            "id": "59",
+            "name": "Shrimp w.Garlic Sauce",
+            "price": 11.95,
+            "photo": ""
+        },
+        {
+            "id": "60",
+            "name": "Shrimp w.Cashew Nuts",
+            "price": 11.95,
+            "photo": ""
+        },
+        {
+            "id": "61",
+            "name": "Szechuan Shrimp",
+            "price": 11.95,
+            "photo": ""
+        }
+    ],
+    "Chicken (Pollo)":[
+        {
+            "id": "62",
+            "name": "Chicken w.Broccoli",
+            "price": 6.75,
+            "photo": ""
+        },
+        {
+            "id": "63",
+            "name": "Moo Goo Gai Pan",
+            "price": 6.75,
+            "photo": ""
+        },
+        {
+            "id": "64",
+            "name": "Chicken w.Snow Peas",
+            "price": 9.95,
+            "photo": ""
+        },
+        {
+            "id": "65",
+            "name": "Kung Pao Chicken",
+            "price": 9.95,
+            "photo": ""
+        },
+        {
+            "id": "66",
+            "name": "Chicken w.Chinese Vegetable",
+            "price": 9.95,
+            "photo": ""
+        },
+        {
+            "id": "67",
+            "name": "Boneless Chicken or Mandarin Chicken",
+            "price": 9.95,
+            "photo": "/items/Mandarin_Chicken.webp"
+        },
+        {
+            "id": "68",
+            "name": "Chicken w.Garlic Sauce",
+            "price": 9.95,
+            "photo": ""
+        },
+        {
+            "id": "69",
+            "name": "Chicken w.Cashew Nuts",
+            "price": 9.95,
+            "photo": ""
+        },
+        {
+            "id": "70",
+            "name": "Hunan Chicken",
+            "price": 9.95,
+            "photo": ""
+        },
+        {
+            "id": "71",
+            "name": "Szechuan Chicken",
+            "price": 9.95,
+            "photo": ""
+        },
+        {
+            "id": "72",
+            "name": "Almond Chicken",
+            "price": 9.95,
+            "photo": ""
+        }
+    ],
+    "Roast Pork (Cerdo)":[
+        {
+            "id": "73",
+            "name": "Roast Pork w.Broccoli",
+            "price": 9.75,
+            "photo": ""
+        },
+        {
+            "id": "74",
+            "name": "Roast Pork w.Chinese Vegetable",
+            "price": 9.75,
+            "photo": ""
+        },
+        {
+            "id": "75",
+            "name": "Roast Pork w.Mushroom",
+            "price": 9.75,
+            "photo": ""
+        },
+        {
+            "id": "76",
+            "name": "Roast Pork w.Snow Peas",
+            "price": 9.75,
+            "photo": ""
+        }
+    ],
+    "Beef (Carne De Res)":[
+        {
+            "id": "77",
+            "name": "Beef w.Broccoli",
+            "price": 6.95,
+            "photo": ""
+        },
+        {
+            "id": "78",
+            "name": "Pepper Steak w.Onion",
+            "price": 6.95,
+            "photo": ""
+        },
+        {
+            "id": "80",
+            "name": "Beef w.Mushroom",
+            "price": 11.95,
+            "photo": ""
+        },
+        {
+            "id": "81",
+            "name": "Beef w.Snow Peas",
+            "price": 11.95,
+            "photo": ""
+        },
+        {
+            "id": "82",
+            "name": "Hunan Beef",
+            "price": 11.95,
+            "photo": ""
+        }
+    ],
+    "Sweet & Sour":[
+        {
+            "id": "84",
+            "name": "Sweet & Sour Pork",
+            "price": 9.75,
+            "photo": ""
+        },
+        {
+            "id": "85",
+            "name": "Sweet & Sour Chicken",
+            "price": 9.75,
+            "photo": "/items/sweet_sour_chicken.webp"
+        },
+        {
+            "id": "86",
+            "name": "Sweet & Sour Shrimp",
+            "price": 11.95,
+            "photo": ""
+        }
+    ],
+    "Moo Shu":[
+        {
+            "id": "88",
+            "name": "Moo Shu Pork or Chicken",
+            "price": 9.95,
+            "photo": ""
+        },
+        {
+            "id": "89",
+            "name": "Moo Shu Shrimp or Beef",
+            "price": 9.95,
+            "photo": ""
+        }
+    ],
+    "Vegetables (Vegetales)":[
+        {
+            "id": "90",
+            "name": "Chinese Mixed Vegetables",
+            "price": 9.05,
+            "photo": ""
+        },
+        {
+            "id": "91",
+            "name": "Sauteed Broccoli",
+            "price": 9.05,
+            "photo": ""
+        },
+        {
+            "id": "92",
+            "name": "Mixed Vegetable w.Garlic Sauce",
+            "price": 9.05,
+            "photo": ""
+        },
+        {
+            "id": "93",
+            "name": "Bean Curd w.Szechuan Style",
+            "price": 9.05,
+            "photo": ""
+        }
+    ],
+    "Our Chef's Suggestion":[
+        {
+            "id": "S1",
+            "name": "Seafood Combination",
+            "price": 14.95,
+            "photo": ""
+        },
+        {
+            "id": "S2",
+            "name": "Happy Family",
+            "price": 14.75,
+            "photo": ""
+        },
+        {
+            "id": "S3",
+            "name": "Four Seasons",
+            "price": 13.95,
+            "photo": ""
+        },
+        {
+            "id": "S4",
+            "name": "Lake Tung Ting Shrimp",
+            "price": 12.95,
+            "photo": ""
+        },
+        {
+            "id": "S5",
+            "name": "Beef and Scallops",
+            "price": 13.95,
+            "photo": ""
+        },
+        {
+            "id": "S6",
+            "name": "Sesame Chicken",
+            "price": 10.95,
+            "photo": ""
+        },
+        {
+            "id": "S7",
+            "name": "Genera Tso's Chicken",
+            "price": 10.95,
+            "photo": ""
+        },
+        {
+            "id": "S8",
+            "name": "Mongolian Beef",
+            "price": 13.95,
+            "photo": ""
+        },
+        {
+            "id": "S10",
+            "name": "Orange Flavor Chicken",
+            "price": 10.95,
+            "photo": ""
+        },
+        {
+            "id": "S11",
+            "name": "Phoenix & Dragon",
+            "price": 14.95,
+            "photo": ""
+        },
+        {
+            "id": "S11a",
+            "name": "Szechuan Triple Delight",
+            "price": 13.95,
+            "photo": ""
+        },
+        {
+            "id": "S13",
+            "name": "Shrimp & Scallop w.Garlic Sauce",
+            "price": 13.95,
+            "photo": ""
+        },
+        {
+            "id": "S14",
+            "name": "Triple Delight",
+            "price": 13.5,
+            "photo": ""
+        },
+        {
+            "id": "S16",
+            "name": "Thai Chicken",
+            "price": 12.95,
+            "photo": ""
+        },
+        {
+            "id": "S17",
+            "name": "Thai Shrimp",
+            "price": 12.95,
+            "photo": ""
+        },
+        {
+            "id": "S18",
+            "name": "Chicken w.Eggplant in Garlic Sauce",
+            "price": 12.95,
+            "photo": ""
+        },
+        {
+            "id": "S19",
+            "name": "Shrimp w.Eggplant in Garlic Sauce",
+            "price": 13.95,
+            "photo": ""
+        },
+        {
+            "id": "S20",
+            "name": "Triple Delight in Garlic Sauce",
+            "price": 13.95,
+            "photo": ""
+        },
+        {
+            "id": "S21",
+            "name": "Hunan Triple Delight",
+            "price": 13.95,
+            "photo": ""
+        }
+    ],
+    "Diet Dish":[
+        {
+            "id": "D1",
+            "name": "Steamed Mixed Vegetables",
+            "price": 9.5,
+            "photo": ""
+        },
+        {
+            "id": "D2",
+            "name": "Chicken w.Broccoli & Baby Corn",
+            "price": 10.95,
+            "photo": ""
+        },
+        {
+            "id": "D3",
+            "name": "Shrimp w.Broccoli & Baby Corn",
+            "price": 10.95,
+            "photo": ""
+        },
+        {
+            "id": "D4",
+            "name": "Shrimp, Chicken & Snow Pea & Baby Corn",
+            "price": 11.95,
+            "photo": ""
+        },
+        {
+            "id": "D5",
+            "name": "Scallops, Chicken & Broccoli& Baby Corn",
+            "price": 13.95,
+            "photo": ""
+        },
+        {
+            "id": "D6",
+            "name": "Scallops, Shrimp w.Mix Veg",
+            "price": 13.95,
+            "photo": ""
+        }
+    ],
+    "Side Orders":[
+        {
+            "id": "",
+            "name": "Plain Fried Rice",
+            "price": 3,
+            "photo": ""
+        },
+        {
+            "id": "",
+            "name": "White Rice",
+            "price": 2.5,
+            "photo": ""
+        },
+        {
+            "id": "",
+            "name": "Fried Noodles or Fortune Cookies",
+            "price": 0.5,
+            "photo": ""
+        },
+        {
+            "id": "",
+            "name": "Sweet Tea",
+            "price": 1.5,
+            "photo": ""
+        }
+    ],
+
+    "Lunch Special":[
+        {
+            "id": "L1",
+            "name": "Chicken or Pork Lo Mein",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L2",
+            "name": "Beef or Shrimp Lo Mein",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L3",
+            "name": "Sweet & Sour Pork",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L4",
+            "name": "Pork Lo Mein",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L5",
+            "name": "Pork w.Broccoli",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L6",
+            "name": "Pork Egg Foo Young",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L7",
+            "name": "Chicken w.Broccoli",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L8",
+            "name": "Moo Goo Gai Pan",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L9",
+            "name": "Mandarin or Boneless Chicken",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L10",
+            "name": "Chicken w.Garlic Sauce or Szechuan Chicken",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L11",
+            "name": "Sweet & Sour Chicken",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L12",
+            "name": "Chicken w.Almond",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L13",
+            "name": "Chicken w.Cashew Nuts",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L15",
+            "name": "Beef with Broccoli",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L16",
+            "name": "Pepper Steak",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L17",
+            "name": "Pepper with Mixed Vegetable",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L18",
+            "name": "Hunan Beef",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L19",
+            "name": "Beef with Snow Pea",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L20",
+            "name": "Shrimp with Broccoli",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L21",
+            "name": "Shrimp with Lobster Sauce",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L22",
+            "name": "Shrimp with Chinese Vegetable",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L23",
+            "name": "Shrimp Chow Mein",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L24",
+            "name": "Kung Pao Shrimp",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L25",
+            "name": "Kung Pao Chicken",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L26",
+            "name": "Sesame or General Tso's Chicken",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L27",
+            "name": "Mixed Vegetable with Brown Sauce",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L28",
+            "name": "Shrimp with Garlic Sauce",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L29",
+            "name": "Broccoli with Garlic Sauce",
+            "price": 6.99,
+            "photo": ""
+        },
+        {
+            "id": "L30",
+            "name": "Boneless Spare Ribs",
+            "price": 7.25,
+            "photo": ""
+        },
+        {
+            "id": "L31",
+            "name": "Triple Delight",
+            "price": 7.25,
+            "photo": ""
+        }
+    ],
+    "Modifiers":{
+        "Specialties": {
+          "1": [
+            {
+              "modifier": "",
+              "price": 0
+            },
+            {
+              "modifier": "w.French Fries or Fried Rice",
+              "price": 1.75
+            },
+            {
+              "modifier": "w.Roast Pork or Chicken Fried Rice",
+              "price": 2.25
+            },
+            {
+              "modifier": "w.Shrimp or Beef Fried Rice",
+              "price": 2.75
+            }
+          ],
+          "2": [
+            {
+              "modifier": "",
+              "price": 0
+            },
+            {
+              "modifier": "w.French Fries or Fried Rice",
+              "price": 1
+            },
+            {
+              "modifier": "w.Roast Pork or Chicken Fried Rice",
+              "price": 2
+            },
+            {
+              "modifier": "w.Shrimp or Beef Fried Rice",
+              "price": 3
+            }
+          ]
+        },
+        "Appetizers": {
+          "4": [
+            {
+              "modifier": "Small",
+              "price": 0
+            },
+            {
+              "modifier": "Large",
+              "price": 7
+            }
+          ],
+          "8": [
+            {
+              "modifier": "Small",
+              "price": 0
+            },
+            {
+              "modifier": "Large",
+              "price": 7
+            }
+          ]
+        },
+        "Soup": {
+          "12": [
+            {
+              "modifier": "Small",
+              "price": 0
+            },
+            {
+              "modifier": "Large",
+              "price": 1.2
+            }
+          ],
+          "13": [
+            {
+              "modifier": "Small",
+              "price": 0
+            },
+            {
+              "modifier": "Large",
+              "price": 1.75
+            }
+          ],
+          "14": [
+            {
+              "modifier": "Small",
+              "price": 0
+            },
+            {
+              "modifier": "Large",
+              "price": 1.45
+            }
+          ],
+          "15": [
+            {
+              "modifier": "Small",
+              "price": 0
+            },
+            {
+              "modifier": "Large",
+              "price": 1.45
+            }
+          ],
+          "16": [
+            {
+              "modifier": "Small",
+              "price": 0
+            },
+            {
+              "modifier": "Large",
+              "price": 1.45
+            }
+          ],
+          "17": [
+            {
+              "modifier": "Small",
+              "price": 0
+            },
+            {
+              "modifier": "Large",
+              "price": 1.8
+            }
+          ],
+          "18": [
+            {
+              "modifier": "Small",
+              "price": 0
+            },
+            {
+              "modifier": "Large",
+              "price": 2
+            }
+          ]
+        },
+        "Fried Rice (Arroz Frito)": [
+          {
+            "22": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 2.7
+              }
+            ],
+            "23": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3.05
+              }
+            ],
+            "24": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3
+              }
+            ],
+            "25": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3.1
+              }
+            ],
+            "26": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3.1
+              }
+            ],
+            "27": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3.45
+              }
+            ],
+            "29": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3.5
+              }
+            ]
+          }
+        ],
+        "Lo Mein (Spaghetti)": [
+          {
+            "37": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 2.7
+              }
+            ],
+            "38": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3.15
+              }
+            ],
+            "39": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3.15
+              }
+            ],
+            "40": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3
+              }
+            ],
+            "41": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3
+              }
+            ],
+            "42": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3.8
+              }
+            ]
+          }
+        ],
+        "Seafood (Comidas Marinas)": [
+          {
+            "54": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 5
+              }
+            ],
+            "55": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 5
+              }
+            ]
+          }
+        ],
+        "Chicken (Pollo)": [
+          {
+            "62": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3.2
+              }
+            ],
+            "63": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 3.2
+              }
+            ]
+          }
+        ],
+        "Beef (Carne De Res)": [
+          {
+            "77": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 5
+              }
+            ],
+            "78": [
+              {
+                "modifier": "Small",
+                "price": 0
+              },
+              {
+                "modifier": "Large",
+                "price": 5
+              }
+            ]
+          }
+        ]
+      }
+} 

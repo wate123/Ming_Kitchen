@@ -1,6 +1,16 @@
 .container {
   padding: 0 2rem;
 }
+.storeDetails {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.name {
+  font-style: normal;
+  font-size: xx-large;
+  font-weight: bold;
+}
 
 .main {
   min-height: 100vh;
@@ -16,7 +26,6 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
 }
