@@ -52,6 +52,7 @@ export default function Home({ MenuItems }) {
 }
 
 export async function getServerSideProps(context) {
+  console.log(process.env.Domain)
   const res = await fetch(`${process.env.Domain}/api/items`);
   const data = await res.json();
   return {

@@ -27,7 +27,11 @@ export default function LeftMenu({ sections, refs, selectedKey }) {
   }, []);
 
   useEffect(() => {
-    menuBarRefs.current[sections.indexOf(selectedKey)].current.scrollIntoView();
+    if (mode === "horizontal") {
+      menuBarRefs.current[
+        sections.indexOf(selectedKey)
+      ].current.scrollIntoView();
+    }
   }, [selectedKey]);
   return (
     <Affix>
