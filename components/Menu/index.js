@@ -73,7 +73,7 @@ export default function Menus({ items }) {
           />
         </Col>
         <Col
-          xs={{ order: 1, span: 24 }}
+          xs={{ order: 2, span: 24 }}
           sm={{ order: 2, span: 16 }}
           md={{ order: 1, span: 18 }}
         >

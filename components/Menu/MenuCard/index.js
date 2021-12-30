@@ -49,10 +49,15 @@ export default function index({ item, modifier }) {
   };
   return (
     <Row className={style.card}>
-      <Col sm={{ order: 2, span: 24 }} lg={{ order: 1, span: 12 }}>
+      <Col
+        xs={{ order: 2, span: 24 }}
+        sm={{ order: 2, span: 24 }}
+        lg={{ order: 1, span: 12 }}
+      >
         <ModifierItem />
       </Col>
       <Col
+        xs={{ order: 1, span: 24 }}
         sm={{ order: 1, span: 24 }}
         lg={{ order: 1, span: 12 }}
         className={photo ? style.image : null}
