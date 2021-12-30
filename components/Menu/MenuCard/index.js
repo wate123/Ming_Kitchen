@@ -7,31 +7,37 @@ export default function index({ item, modifier }) {
   const { id, name, price, photo } = item;
   const ModifierItem = () => {
     if (modifier) {
-      let Mod = [<h3 className={style.cardText}>{`${id}. ${name}`}</h3>];
-      modifier.map((m) => {
+      const Modifiers = modifier.map((m) => {
         if (m.modifier == "Small" || m.modifier == "Large") {
-          Mod.push(<span style={{ fontWeight: 300 }}>{`${m.modifier} `}</span>);
-          Mod.push(
-            <span style={{ fontWeight: 600 }}>{`$${(price + m.price).toFixed(
-              2
-            )} `}</span>
+          return (
+            <div key={id + m.modifier}>
+              <span style={{ fontWeight: 300 }}>{`${m.modifier} `}</span>
+              <span style={{ fontWeight: 600 }}>{`$${(price + m.price).toFixed(
+                2
+              )} `}</span>
+              <br />
+            </div>
           );
-          Mod.push(<br />);
         } else {
-          Mod.push(
-            <span
-              style={{ fontWeight: 300, fontStyle: "italic" }}
-            >{`${m.modifier} `}</span>
+          return (
+            <div key={id + m.modifier}>
+              <span
+                style={{ fontWeight: 300, fontStyle: "italic" }}
+              >{`${m.modifier} `}</span>
+              <span style={{ fontWeight: 600 }}>{`$${(price + m.price).toFixed(
+                2
+              )}`}</span>
+              <br />
+            </div>
           );
-          Mod.push(
-            <span style={{ fontWeight: 600 }}>{`$${(price + m.price).toFixed(
-              2
-            )}`}</span>
-          );
-          Mod.push(<br />);
         }
       });
-      return Mod;
+      return (
+        <div>
+          <h3 className={style.cardText}>{`${id}. ${name}`}</h3>
+          {Modifiers}
+        </div>
+      );
     } else {
       return (
         <>

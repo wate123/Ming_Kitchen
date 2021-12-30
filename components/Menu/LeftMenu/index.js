@@ -24,7 +24,6 @@ export default function LeftMenu({ sections, refs, selectedKey }) {
       console.l;
       e.matches ? setMode("horizontal") : setMode("vertical");
     });
-    console.log(mode);
   }, []);
 
   useEffect(() => {

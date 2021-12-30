@@ -50,7 +50,7 @@ const useScrollspy = (ids, offset = 0) => {
 
   return activeId;
 };
-export default function index({ items }) {
+export default function Menus({ items }) {
   const sections = Object.keys(items).filter((x) => x !== "Modifiers");
 
   const refs = useRef([]);

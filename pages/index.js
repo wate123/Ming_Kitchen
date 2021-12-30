@@ -38,6 +38,8 @@ export default function Home({ MenuItems }) {
       <Header />
       <main className={styles.container} ref={ref}>
         <div className={styles.name}>Ming Kitchen</div>
+        <span>Tel. </span>
+        <a href="tel. 504-466-6400">(504)-466-6400</a>
         <div>3106 Loyola Drive, Kenner, LA, 70065</div>
         <OperationTimeToday />
         <Menu items={MenuItems} />
