@@ -1,152 +1,5 @@
 {
-  "Special Dinner Combination Plates":[
-    {
-        "id": "C1",
-        "name": "Roast Pork or Chicken Egg Foo Young",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C2",
-        "name": "Pork or Chicken Lo Mein",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C3",
-        "name": "Beef or Shrimp Lo Mein",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C4",
-        "name": "Chicken or Shrimp Chow Mein",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C5",
-        "name": "Chicken or Beef w.Broccoli",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C6",
-        "name": "Shrimp w.Broccoli",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C7",
-        "name": "Sweet & Sour Pork or Chicken",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C8",
-        "name": "Moo Goo Gai Pan",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C9",
-        "name": "Pork w.Chinese Vegetable",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C10",
-        "name": "Beef or Shrimp w.Chinese Veg",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C11",
-        "name": "Pepper Stack w.Onion",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C12",
-        "name": "Shrimp w.Lobster Sauce",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C13",
-        "name": "Kung Po Shrimp",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C14",
-        "name": "Sauteed Mixed Vegetables",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C15",
-        "name": "Sesame or General Tso's Chicken",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C16",
-        "name": "Mandarin or Boneless Chicken",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C17",
-        "name": "Honey Chicken",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C19",
-        "name": "Cashewnuts Chicken",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C20",
-        "name": "Almond Chicken",
-        "price": 8.99,
-        "photo": ""
-    },
-    {
-        "id": "C21",
-        "name": "Bar-B-Q Spare Ribs or Boneless Ribs",
-        "price": 9.95,
-        "photo": ""
-    },
-    {
-        "id": "C22",
-        "name": "Triple Delight",
-        "price": 9.5,
-        "photo": ""
-    }
-],
-    "Specialties":[
-        {
-            "id": "1",
-            "name": "Fried Chicken Wings (6)",
-            "price": 7.25,
-            "photo": ""
-        },
-        {
-            "id": "2",
-            "name": "Fried Jumbo Shrimp (6)",
-            "price": 6.65,
-            "photo": ""
-        },
-        {
-            "id": "3",
-            "name": "French Fries",
-            "price": 3.99,
-            "photo": ""
-        }
-    ],
+
     "Appetizers":[
         {
             "id": "1",
@@ -877,7 +730,154 @@
             "photo": ""
         }
     ],
-
+    "Specialties":[
+      {
+          "id": "1",
+          "name": "Fried Chicken Wings (6)",
+          "price": 7.25,
+          "photo": ""
+      },
+      {
+          "id": "2",
+          "name": "Fried Jumbo Shrimp (6)",
+          "price": 6.65,
+          "photo": ""
+      },
+      {
+          "id": "3",
+          "name": "French Fries",
+          "price": 3.99,
+          "photo": ""
+      }
+  ],
+    "Special Dinner Combo Plates":[
+      {
+          "id": "C1",
+          "name": "Roast Pork or Chicken Egg Foo Young",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C2",
+          "name": "Pork or Chicken Lo Mein",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C3",
+          "name": "Beef or Shrimp Lo Mein",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C4",
+          "name": "Chicken or Shrimp Chow Mein",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C5",
+          "name": "Chicken or Beef w.Broccoli",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C6",
+          "name": "Shrimp w.Broccoli",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C7",
+          "name": "Sweet & Sour Pork or Chicken",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C8",
+          "name": "Moo Goo Gai Pan",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C9",
+          "name": "Pork w.Chinese Vegetable",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C10",
+          "name": "Beef or Shrimp w.Chinese Veg",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C11",
+          "name": "Pepper Stack w.Onion",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C12",
+          "name": "Shrimp w.Lobster Sauce",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C13",
+          "name": "Kung Po Shrimp",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C14",
+          "name": "Sauteed Mixed Vegetables",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C15",
+          "name": "Sesame or General Tso's Chicken",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C16",
+          "name": "Mandarin or Boneless Chicken",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C17",
+          "name": "Honey Chicken",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C19",
+          "name": "Cashewnuts Chicken",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C20",
+          "name": "Almond Chicken",
+          "price": 8.99,
+          "photo": ""
+      },
+      {
+          "id": "C21",
+          "name": "Bar-B-Q Spare Ribs or Boneless Ribs",
+          "price": 9.95,
+          "photo": ""
+      },
+      {
+          "id": "C22",
+          "name": "Triple Delight",
+          "price": 9.5,
+          "photo": ""
+      }
+  ],
     "Lunch Special":[
         {
             "id": "L1",

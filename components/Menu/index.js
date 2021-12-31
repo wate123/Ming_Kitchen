@@ -60,15 +60,30 @@ export default function Menus({ items }) {
   refs.current = sections.map((_, i) => refs.current[i] ?? createRef());
 
   const sectionHeading = (name) => {
-    if (name === "Special Dinner Combination Plates") {
+    if (name === "Special Dinner Combo Plates") {
       return (
         <>
           {name}
-          <div>(Served All Day)</div>
+          <div className={style.notes}>(Served All Day)</div>
+          <div className={style.subSection}>
+            All Served w. Roast Pork Fried Rice & Egg Roll
+          </div>
         </>
       );
     } else if (name === "Lunch Special") {
-      return new Date().getDay() === 6? name+" Not Available Today (Sunday)" :name + " (11:00 AM - 3:00 PM)";
+      return (
+        <>
+          {new Date().getDay() !== 6 ? (
+            name + " (11:00 AM - 3:00 PM)"
+          ) : (
+            <div className={style.notes}>Not Available Today (Sunday)</div>
+          )}
+
+          <div className={style.subSection}>
+            All Served w. Roast Pork Fried Rice & a Can Drink
+          </div>
+        </>
+      );
     } else {
       return name;
     }

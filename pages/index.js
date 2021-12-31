@@ -35,7 +35,7 @@ export default function Home({ MenuItems }) {
       <Head>
         <title>Ming Kitchen Kenner LA</title>
         <meta name="description" content="Chinese Restaurant" />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Header />
       <main className={styles.container} ref={ref}>
@@ -49,7 +49,7 @@ export default function Home({ MenuItems }) {
           Order Here
         </Button>
         <span>Tel. </span>
-        <a href="tel. 504-466-6400">(504)-466-6400</a>
+        <a href="tel:504-466-6400">(504)-466-6400</a>
         <div>3106 Loyola Drive, Kenner, LA, 70065</div>
 
         <OperationTimeToday />
