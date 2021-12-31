@@ -1,4 +1,5 @@
 import React, { createRef, useRef, useEffect, useState } from "react";
+import { Button } from "antd";
 
 import Head from "next/head";
 import moment from "moment";
@@ -9,6 +10,7 @@ import Menu from "/components/Menu";
 const StoreOperationTime = [2200, 2200, 2200, 2200, 2230, 2230, 2200];
 export default function Home({ MenuItems }) {
   const ref = useRef(null);
+
   const OperationTimeToday = () => {
     const now = new Date();
     const weekDay = now.getDay();
@@ -38,10 +40,20 @@ export default function Home({ MenuItems }) {
       <Header />
       <main className={styles.container} ref={ref}>
         <div className={styles.name}>Ming Kitchen</div>
+        <Button
+          className={styles.orderButton}
+          type="danger"
+          href="https://qmenu.us/#/ming-kitchen-kenner"
+          target="_blank"
+        >
+          Order Here
+        </Button>
         <span>Tel. </span>
         <a href="tel. 504-466-6400">(504)-466-6400</a>
         <div>3106 Loyola Drive, Kenner, LA, 70065</div>
+
         <OperationTimeToday />
+
         <Menu items={MenuItems} />
       </main>
       <footer className={styles.footer}>
@@ -52,7 +64,7 @@ export default function Home({ MenuItems }) {
 }
 
 export async function getServerSideProps(context) {
-  console.log(process.env.Domain)
+  console.log(process.env.Domain);
   const res = await fetch(`${process.env.Domain}/api/items`);
   const data = await res.json();
   return {

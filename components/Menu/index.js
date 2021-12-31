@@ -7,6 +7,7 @@ import React, {
 } from "react";
 import { Menu } from "antd";
 import LeftMenu from "./LeftMenu";
+import moment from "moment";
 import MenuCard from "./MenuCard";
 import { Row, Col } from "antd";
 import style from "./Menu.module.css";
@@ -58,6 +59,21 @@ export default function Menus({ items }) {
 
   refs.current = sections.map((_, i) => refs.current[i] ?? createRef());
 
+  const sectionHeading = (name) => {
+    if (name === "Special Dinner Combination Plates") {
+      return (
+        <>
+          {name}
+          <div>(Served All Day)</div>
+        </>
+      );
+    } else if (name === "Lunch Special") {
+      return new Date().getDay() === 6? name+" Not Available Today (Sunday)" :name + " (11:00 AM - 3:00 PM)";
+    } else {
+      return name;
+    }
+  };
+
   return (
     <div>
       <Row>
@@ -82,7 +98,7 @@ export default function Menus({ items }) {
             .map((name, i) => {
               return (
                 <div id={name} key={name} ref={refs.current[i]}>
-                  <h2 className={style.section}>{name}</h2>
+                  <h2 className={style.section}>{sectionHeading(name)}</h2>
                   <Row>
                     {items[name].map((item) => (
                       <Col key={`${item.id}${Math.random()}`} xs={24} md={12}>
