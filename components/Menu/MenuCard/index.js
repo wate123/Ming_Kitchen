@@ -63,7 +63,13 @@ export default function index({ item, modifier }) {
         className={photo ? style.image : null}
       >
         {photo ? (
-          <Image src={photo} alt={name} layout="fill" objectFit="cover" />
+          <Image
+            src={photo}
+            alt={name}
+            priority
+            layout="fill"
+            objectFit="cover"
+          />
         ) : null}
       </Col>
     </Row>
