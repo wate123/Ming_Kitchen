@@ -1,15 +1,8 @@
+import styles from "/styles/404.module.css";
 export default function Custom404() {
   return (
-    <div style={{ background: "black" }}>
-      <img
-        style={{
-          height: "100vh",
-          display: "block",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-        src="/404.jpeg"
-      />
+    <div className={styles.custom404}>
+      <img className={styles.image} src="/404.jpeg" alt="404 cat" />
     </div>
   );
 }
