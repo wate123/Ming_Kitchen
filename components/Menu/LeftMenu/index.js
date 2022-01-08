@@ -7,7 +7,7 @@ import React, {
 } from "react";
 import { Affix, Menu } from "antd";
 
-import styles from "./leftmenu.module.css";
+import styles from "/styles/leftmenu.module.css";
 export default function LeftMenu({ sections, refs, selectedKey }) {
   const [mode, setMode] = useState("vertical");
   const menuBarRefs = useRef([]);

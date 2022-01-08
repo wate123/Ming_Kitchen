@@ -1,20 +1,44 @@
 import React, { createRef, useRef, useEffect, useState } from "react";
-import { Button } from "antd";
+import { Button, notification } from "antd";
 
 import Head from "next/head";
 import moment from "moment";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "/styles/Home.module.css";
 import Header from "/components/Header";
 import Menu from "/components/Menu";
-const StoreOperationTime = [2200, 2200, 2200, 2200, 2230, 2230, 2200];
+const StoreOperationTime = [0, 2200, 2200, 2200, 2230, 2230, 2200];
 export default function Home({ MenuItems }) {
   const ref = useRef(null);
+
+  useEffect(() => {
+    notification["info"]({
+      duration: null,
+      placement: "topLeft",
+      message: "Hours Update",
+      description: (
+        <span>
+          Starting next week<b>(1/11)</b>，We will be <b>closed</b> on{" "}
+          <b>every Monday！</b>Please come back next day or a day before. Sorry
+          for any inconvenience
+        </span>
+      ),
+    });
+  }, []);
 
   const OperationTimeToday = () => {
     const now = new Date();
     const weekDay = now.getDay();
     const hour = now.getHours();
+    if (weekDay == 0) {
+      return (
+        <div className={styles.storeDetails}>
+          <b>
+            Closed! Please come back {moment(1100, "hmm").format("LT")} Tomorrow
+          </b>
+        </div>
+      );
+    }
     const openTill = moment(StoreOperationTime[weekDay], "hmm");
     if (moment().isBetween(moment(1100, "hmm"), openTill)) {
       return (
@@ -25,7 +49,7 @@ export default function Home({ MenuItems }) {
     }
     return (
       <div className={styles.storeDetails}>
-        Closed! Open at {moment(1100, "hmm").format("LT")} Today
+        <b>Closed! Open at {moment(1100, "hmm").format("LT")} Today</b>
       </div>
     );
   };
@@ -33,7 +57,8 @@ export default function Home({ MenuItems }) {
   return (
     <div>
       <Head>
-        <title>Ming Kitchen Kenner LA</title>
+        <title>Ming Kitchen | Kenner, LA 70065 | Chinese</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Chinese Restaurant" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>

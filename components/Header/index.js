@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import style from "./Header.module.css";
+import styles from "/styles/Header.module.css";
 export default function index() {
   return (
     <div>
-      <div style={{ height: "30vh", width: "100vw", position: "relative" }}>
+      <div className={styles.head}>
         <Image
           src="/Head.jpg"
           alt="Heading"

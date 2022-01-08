@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Card } from "antd";
 import Image from "next/image";
-import style from "./MenuCard.module.css";
+import style from "/styles/MenuCard.module.css";
 
 export default function index({ item, modifier }) {
   const { id, name, price, photo } = item;
@@ -66,7 +66,7 @@ export default function index({ item, modifier }) {
           <Image
             src={photo}
             alt={name}
-            priority
+            // placeholder="blur"
             layout="fill"
             objectFit="cover"
           />

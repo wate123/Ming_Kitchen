@@ -10,7 +10,7 @@ import LeftMenu from "./LeftMenu";
 import moment from "moment";
 import MenuCard from "./MenuCard";
 import { Row, Col } from "antd";
-import style from "./Menu.module.css";
+import style from "/styles/Menu.module.css";
 const isBetween = (value, floor, ceil) => value >= floor && value <= ceil;
 const clamp = (value) => Math.max(0, value);
 
