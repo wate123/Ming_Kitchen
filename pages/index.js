@@ -10,7 +10,6 @@ import Menu from "/components/Menu";
 const StoreOperationTime = [0, 2200, 2200, 2200, 2230, 2230, 2200];
 export default function Home({ MenuItems }) {
   const ref = useRef(null);
-
   useEffect(() => {
     notification["info"]({
       duration: null,
@@ -18,7 +17,7 @@ export default function Home({ MenuItems }) {
       message: "Hours Update",
       description: (
         <span>
-          Starting next week<b>(1/11)</b>，We will be <b>closed</b> on{" "}
+          Starting now，We will be <b>closed</b> on{" "}
           <b>every Monday！</b>Please come back next day or a day before. Sorry
           for any inconvenience
         </span>
@@ -34,7 +33,8 @@ export default function Home({ MenuItems }) {
       return (
         <div className={styles.storeDetails}>
           <b>
-            Closed! Please come back {moment(1100, "hmm").format("LT")} Tomorrow
+            Closed! Please come back <b>{moment(1100, "hmm").format("LT")}</b>
+            Tomorrow
           </b>
         </div>
       );
@@ -46,10 +46,20 @@ export default function Home({ MenuItems }) {
           Open until {openTill.format("LT")} Today
         </div>
       );
+    } else if (moment().isBetween(openTill, moment(2359, "hmm"))) {
+      return (
+        <div className={styles.storeDetails}>
+          <b>
+            Closed! Open at <b>{moment(1100, "hmm").format("LT")}</b> Tomorrow
+          </b>
+        </div>
+      );
     }
     return (
       <div className={styles.storeDetails}>
-        <b>Closed! Open at {moment(1100, "hmm").format("LT")} Today</b>
+        <b>
+          Closed! Open at <b>{moment(1100, "hmm").format("LT")}</b> Today
+        </b>
       </div>
     );
   };
