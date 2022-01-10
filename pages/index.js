@@ -68,7 +68,7 @@ export default function Home({ MenuItems }) {
       <Head>
         <title>Ming Kitchen | Kenner, LA 70065 | Chinese</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="Chinese Restaurant" />
+        <meta name="description" content="Ming Kitchen menu, Order Chinese food Pick up Online from Ming Kitchen, Best Chinese in Kenner, LA"></meta>
         <link rel="preload" href="/Head.jpg" as="image" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
