@@ -2,4 +2,5 @@
   height: 30vh;
   width: 100vw;
   position: relative;
+  object-fit: cover;
 }

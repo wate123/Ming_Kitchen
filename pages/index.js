@@ -17,9 +17,8 @@ export default function Home({ MenuItems }) {
       message: "Hours Update",
       description: (
         <span>
-          Starting now，We will be <b>closed</b> on{" "}
-          <b>every Monday！</b>Please come back next day or a day before. Sorry
-          for any inconvenience
+          Starting now, We will be <b>closed</b> on <b>every Monday！</b>Please
+          come back next day or a day before. Sorry for any inconvenience
         </span>
       ),
     });
@@ -33,7 +32,7 @@ export default function Home({ MenuItems }) {
       return (
         <div className={styles.storeDetails}>
           <b>
-            Closed! Please come back <b>{moment(1100, "hmm").format("LT")}</b>
+            Closed! Please come back <b>{moment(1100, "hmm").format("LT")}</b>{" "}
             Tomorrow
           </b>
         </div>
@@ -70,6 +69,7 @@ export default function Home({ MenuItems }) {
         <title>Ming Kitchen | Kenner, LA 70065 | Chinese</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Chinese Restaurant" />
+        <link rel="preload" href="/Head.jpg" as="image" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Header />
