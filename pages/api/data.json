@@ -124,6 +124,12 @@
             "photo": ""
         },
         {
+            "id": "20s",
+            "name": "House Special Yat Gaw Mein",
+            "price": 7.5,
+            "photo": "/items/house_special_yat_gaw_mein.webp"
+        },
+        {
             "id": "21",
             "name": "Seafood Soup",
             "price": 8.95,
@@ -153,7 +159,7 @@
             "id": "25",
             "name": "Shrimp Fried Rice (Camarones)",
             "price": 6,
-            "photo": ""
+            "photo": "/items/shrimp_fried_rice.webp"
         },
         {
             "id": "26",
@@ -165,7 +171,7 @@
             "id": "27",
             "name": "House Special Fried Rice",
             "price": 6,
-            "photo": ""
+            "photo": "/items/house_special_fried_rice.webp"
         },
         {
             "id": "29",
@@ -387,7 +393,7 @@
             "id": "65",
             "name": "Kung Pao Chicken",
             "price": 9.95,
-            "photo": ""
+            "photo": "/items/kung_pao_chicken.webp"
         },
         {
             "id": "66",
@@ -463,7 +469,7 @@
             "id": "77",
             "name": "Beef w.Broccoli",
             "price": 6.95,
-            "photo": ""
+            "photo": "/items/beef_broccli.webp"
         },
         {
             "id": "78",
@@ -609,7 +615,7 @@
             "id": "S11",
             "name": "Phoenix & Dragon",
             "price": 14.95,
-            "photo": ""
+            "photo": "/items/phoenix_and_dragon.webp"
         },
         {
             "id": "S11a",
@@ -741,7 +747,7 @@
           "id": "2",
           "name": "Fried Jumbo Shrimp (6)",
           "price": 6.65,
-          "photo": ""
+          "photo": "/items/fried_jumbo_shrimp.webp"
       },
       {
           "id": "3",
@@ -815,7 +821,7 @@
           "id": "C11",
           "name": "Pepper Stack w.Onion",
           "price": 8.99,
-          "photo": ""
+          "photo": "/items/pepper_stake_combo.webp"
       },
       {
           "id": "C12",
@@ -839,7 +845,7 @@
           "id": "C15",
           "name": "Sesame or General Tso's Chicken",
           "price": 8.99,
-          "photo": ""
+          "photo": "/items/general_tsao_chicken.webp"
       },
       {
           "id": "C16",
