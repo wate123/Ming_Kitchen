@@ -67,6 +67,8 @@ export default function index({ item, modifier }) {
             src={photo}
             alt={name}
             // placeholder="blur"
+            width={550}
+            height={440}
             layout="fill"
             objectFit="cover"
           />
