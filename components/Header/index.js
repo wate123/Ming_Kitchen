@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Head from "../../public/Head.jpg";
+import Head from "../../public/Head.webp";
 import styles from "/styles/Header.module.css";
 export default function index() {
   return (
