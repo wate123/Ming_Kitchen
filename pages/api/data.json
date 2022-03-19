@@ -760,127 +760,127 @@
       {
           "id": "C1",
           "name": "Roast Pork or Chicken Egg Foo Young",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C2",
           "name": "Pork or Chicken Lo Mein",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C3",
           "name": "Beef or Shrimp Lo Mein",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C4",
           "name": "Chicken or Shrimp Chow Mein",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C5",
           "name": "Chicken or Beef w.Broccoli",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C6",
           "name": "Shrimp w.Broccoli",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C7",
           "name": "Sweet & Sour Pork or Chicken",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C8",
           "name": "Moo Goo Gai Pan",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C9",
           "name": "Pork w.Chinese Vegetable",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C10",
           "name": "Beef or Shrimp w.Chinese Veg",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C11",
           "name": "Pepper Stack w.Onion",
-          "price": 8.99,
+          "price": 9.75,
           "photo": "/items/pepper_stake_combo.webp"
       },
       {
           "id": "C12",
           "name": "Shrimp w.Lobster Sauce",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C13",
           "name": "Kung Po Shrimp",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C14",
           "name": "Sauteed Mixed Vegetables",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C15",
           "name": "Sesame or General Tso's Chicken",
-          "price": 8.99,
+          "price": 9.75,
           "photo": "/items/general_tsao_chicken.webp"
       },
       {
           "id": "C16",
           "name": "Mandarin or Boneless Chicken",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C17",
           "name": "Honey Chicken",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C19",
           "name": "Cashewnuts Chicken",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C20",
           "name": "Almond Chicken",
-          "price": 8.99,
+          "price": 9.75,
           "photo": ""
       },
       {
           "id": "C21",
           "name": "Bar-B-Q Spare Ribs or Boneless Ribs",
-          "price": 9.95,
+          "price": 10.99,
           "photo": ""
       },
       {
           "id": "C22",
           "name": "Triple Delight",
-          "price": 9.5,
+          "price":10.25,
           "photo": ""
       }
   ],
@@ -888,181 +888,181 @@
         {
             "id": "L1",
             "name": "Chicken or Pork Lo Mein",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L2",
             "name": "Beef or Shrimp Lo Mein",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L3",
             "name": "Sweet & Sour Pork",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L4",
             "name": "Pork Lo Mein",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L5",
             "name": "Pork w.Broccoli",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L6",
             "name": "Pork Egg Foo Young",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L7",
             "name": "Chicken w.Broccoli",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L8",
             "name": "Moo Goo Gai Pan",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L9",
             "name": "Mandarin or Boneless Chicken",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L10",
             "name": "Chicken w.Garlic Sauce or Szechuan Chicken",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L11",
             "name": "Sweet & Sour Chicken",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L12",
             "name": "Chicken w.Almond",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L13",
             "name": "Chicken w.Cashew Nuts",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L15",
             "name": "Beef with Broccoli",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L16",
             "name": "Pepper Steak",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L17",
             "name": "Pepper with Mixed Vegetable",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L18",
             "name": "Hunan Beef",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L19",
             "name": "Beef with Snow Pea",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L20",
             "name": "Shrimp with Broccoli",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L21",
             "name": "Shrimp with Lobster Sauce",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L22",
             "name": "Shrimp with Chinese Vegetable",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L23",
             "name": "Shrimp Chow Mein",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L24",
             "name": "Kung Pao Shrimp",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L25",
             "name": "Kung Pao Chicken",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L26",
             "name": "Sesame or General Tso's Chicken",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L27",
             "name": "Mixed Vegetable with Brown Sauce",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L28",
             "name": "Shrimp with Garlic Sauce",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L29",
             "name": "Broccoli with Garlic Sauce",
-            "price": 6.99,
+            "price": 7.50,
             "photo": ""
         },
         {
             "id": "L30",
             "name": "Boneless Spare Ribs",
-            "price": 7.25,
+            "price": 7.99,
             "photo": ""
         },
         {
             "id": "L31",
             "name": "Triple Delight",
-            "price": 7.25,
+            "price": 7.95,
             "photo": ""
         }
     ],
