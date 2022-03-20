@@ -740,7 +740,7 @@
       {
           "id": "1",
           "name": "Fried Chicken Wings (6)",
-          "price": 7.25,
+          "price": 8,
           "photo": ""
       },
       {
@@ -1075,15 +1075,15 @@
             },
             {
               "modifier": "w.French Fries or Fried Rice",
-              "price": 1.75
+              "price": 2.00
             },
             {
               "modifier": "w.Roast Pork or Chicken Fried Rice",
-              "price": 2.25
+              "price": 3.00
             },
             {
               "modifier": "w.Shrimp or Beef Fried Rice",
-              "price": 2.75
+              "price": 4.00
             }
           ],
           "2": [
