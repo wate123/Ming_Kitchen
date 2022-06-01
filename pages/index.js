@@ -17,7 +17,7 @@ export default function Home({ MenuItems }) {
       message: "Hours Update",
       description: (
         <span>
-          Starting now, We will be <b>closed</b> on <b>every Monday！</b>Please
+         <b>Closed</b> on <b>every Monday！</b>Please
           come back next day or a day before. Sorry for any inconvenience
         </span>
       ),
