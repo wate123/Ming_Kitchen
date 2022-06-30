@@ -7,9 +7,18 @@ import Image from "next/image";
 import styles from "/styles/Home.module.css";
 import Header from "/components/Header";
 import Menu from "/components/Menu";
+import { useUserAgent } from "next-useragent";
+import withHydrationOnDemand from "react-hydration-on-demand";
+
 const StoreOperationTime = [0, 2200, 2200, 2200, 2230, 2230, 2200];
-export default function Home({ MenuItems }) {
+export default function Home({ MenuItems, uaString }) {
   const ref = useRef(null);
+  let ua;
+  if (uaString) {
+    ua = useUserAgent(uaString);
+  } else {
+    ua = useUserAgent(window.navigator.userAgent);
+  }
   useEffect(() => {
     notification["info"]({
       duration: null,
@@ -17,13 +26,15 @@ export default function Home({ MenuItems }) {
       message: "Hours Update",
       description: (
         <span>
-         <b>Closed</b> on <b>every Monday！</b>Please
-          come back next day or a day before. Sorry for any inconvenience
+          <b>Closed</b> on <b>every Monday！</b>Please come back next day or a
+          day before. Sorry for any inconvenience
         </span>
       ),
     });
   }, []);
-
+  const MenuWithHydrationOnDemand = withHydrationOnDemand({ on: ["visible"] })(
+    Menu
+  );
   const OperationTimeToday = () => {
     const now = new Date();
     const weekDay = now.getDay();
@@ -89,7 +100,29 @@ export default function Home({ MenuItems }) {
         </Button>
         <span>Tel. </span>
         <a href="tel:504-466-6400">(504)-466-6400</a>
-        <div>3106 Loyola Drive, Kenner, LA, 70065</div>
+        {ua.isIos ? (
+          <div>
+            <a
+              href="http://maps.apple.com/?q=Ming+Kitchen&sll=30.0107,-90.2658"
+              target="_blank"
+              rel="noreferrer"
+            >
+              3106 Loyola Drive, <br />
+              Kenner, LA, 70065
+            </a>
+          </div>
+        ) : (
+          <div>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Ming+Kitchen&query_place_id=ChIJkeFQw6i3IIYRJwmQs0HugmY"
+              target="_blank"
+              rel="noreferrer"
+            >
+              3106 Loyola Drive, <br />
+              Kenner, LA, 70065
+            </a>
+          </div>
+        )}
 
         <OperationTimeToday />
 
@@ -103,10 +136,10 @@ export default function Home({ MenuItems }) {
 }
 
 export async function getServerSideProps(context) {
-  console.log(process.env.Domain);
+  // console.log(process.env.Domain);
   const res = await fetch(`${process.env.Domain}/api/items`);
   const data = await res.json();
   return {
-    props: { MenuItems: data }, // will be passed to the page component as props
+    props: { MenuItems: data, uaString: context.req.headers["user-agent"] }, // will be passed to the page component as props
   };
 }
