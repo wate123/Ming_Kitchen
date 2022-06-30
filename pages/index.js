@@ -15,8 +15,10 @@ export default function Home({ MenuItems, uaString }) {
   const ref = useRef(null);
   let ua;
   if (uaString) {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     ua = useUserAgent(uaString);
   } else {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     ua = useUserAgent(window.navigator.userAgent);
   }
   useEffect(() => {
