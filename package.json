@@ -15,7 +15,9 @@
     "next-useragent": "^2.8.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-hydration-on-demand": "^2.1.0"
+    "react-hydration-on-demand": "^2.1.0",
+    "seamless-scroll-polyfill": "^2.2.0",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
     "eslint": "8.5.0",

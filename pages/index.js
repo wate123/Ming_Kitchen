@@ -9,6 +9,8 @@ import Header from "/components/Header";
 import Menu from "/components/Menu";
 import { useUserAgent } from "next-useragent";
 import withHydrationOnDemand from "react-hydration-on-demand";
+import { polyfill } from "seamless-scroll-polyfill";
+import smoothscroll from "smoothscroll-polyfill";
 
 const StoreOperationTime = [0, 2200, 2200, 2200, 2230, 2230, 2200];
 export default function Home({ MenuItems, uaString }) {
@@ -22,6 +24,7 @@ export default function Home({ MenuItems, uaString }) {
     ua = useUserAgent(window.navigator.userAgent);
   }
   useEffect(() => {
+
     notification["info"]({
       duration: null,
       placement: "topLeft",

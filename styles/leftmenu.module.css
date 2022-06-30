@@ -2,7 +2,11 @@
   margin-bottom: 0;
   background-color: "transparent";
   color: black;
+  border-bottom: none !important;
+
 }
 .menu {
   overflow: scroll;
+  overflow-y: hidden;
 }
+

@@ -6,11 +6,13 @@ import React, {
   useLayoutEffect,
 } from "react";
 import { Affix, Menu } from "antd";
+import smoothscroll from "smoothscroll-polyfill";
 
 import styles from "/styles/leftmenu.module.css";
 export default function LeftMenu({ sections, refs, selectedKey }) {
   const [mode, setMode] = useState("vertical");
   const menuBarRefs = useRef([]);
+
   menuBarRefs.current = sections.map(
     (_, i) => menuBarRefs.current[i] ?? createRef()
   );
@@ -20,6 +22,7 @@ export default function LeftMenu({ sections, refs, selectedKey }) {
     }
   }, []);
   useEffect(() => {
+    smoothscroll.polyfill();
     window.matchMedia("(max-width: 600px)").addEventListener("change", (e) => {
       console.l;
       e.matches ? setMode("horizontal") : setMode("vertical");
@@ -27,6 +30,7 @@ export default function LeftMenu({ sections, refs, selectedKey }) {
   }, []);
 
   useEffect(() => {
+    console.log(selectedKey);
     if (mode === "horizontal") {
       menuBarRefs.current[
         sections.indexOf(selectedKey)
@@ -41,9 +45,11 @@ export default function LeftMenu({ sections, refs, selectedKey }) {
         selectedKeys={selectedKey}
         mode={mode}
         disabledOverflow
-        onClick={(item) =>
-          refs.current[sections.indexOf(item.key)].current.scrollIntoView()
-        }
+        onClick={(item) => {
+          console.log(refs);
+          // scrollElementIntoView(refs.current, "auto");
+          refs.current[sections.indexOf(item.key)].current.scrollIntoView(true);
+        }}
       >
         {sections.map((s, i) => (
           <Menu.Item
