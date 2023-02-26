@@ -24,7 +24,6 @@ export default function Home({ MenuItems, uaString }) {
     ua = useUserAgent(window.navigator.userAgent);
   }
   useEffect(() => {
-
     notification["info"]({
       duration: null,
       placement: "topLeft",
@@ -93,8 +92,13 @@ export default function Home({ MenuItems, uaString }) {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Header />
-      <main className={styles.container} ref={ref}>
+      <div className={styles.headingSection}>
         <div className={styles.name}>Ming Kitchen</div>
+        <div className={styles.notes}>
+          *Note: All item price subject to change
+        </div>
+      </div>
+      <main className={styles.container} ref={ref}>
         <Button
           className={styles.orderButton}
           type="danger"

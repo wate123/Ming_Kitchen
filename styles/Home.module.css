@@ -6,10 +6,35 @@
   font-weight: 500;
 }
 
+.headingSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .notes{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 8px;
+    width:100px
+  }
+}
+@media only screen and (min-width: 600px) {
+  .notes{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+  }
+}
+
+
 .name {
   font-style: normal;
   font-size: xx-large;
   font-weight: bold;
+  padding-left: 20px;
 }
 
 .footer {
